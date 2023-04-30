@@ -10,7 +10,7 @@ docker exec -it mongodb bash
 Run the mongo shell with privileges:
 
 ```
-mongo --username root --password password --authenticationDatabase admin
+mongosh --username root --password password --authenticationDatabase admin
 ```
 
 Show the dbs:
